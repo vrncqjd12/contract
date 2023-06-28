@@ -30,6 +30,7 @@ balances[sender] -= amount;
 }
 
 Security considerations
+
 This contract is not a security-critical application. It is intended for educational purposes only. If you are using this contract for real-world applications, you should take additional security measures to protect your tokens.
 
 License
