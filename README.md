@@ -1,4 +1,4 @@
-MyToken
+#MyToken
 
 This is a simple ERC20 token contract written in Solidity. It has the following features:
 
@@ -8,7 +8,7 @@ A mapping of addresses to balances
 A mint function that allows the contract owner to create new tokens
 A burn function that allows users to destroy tokens
 
-How to use
+#How to use
 
 To use this contract, you will need to deploy it to a compatible blockchain. Once it is deployed, you can interact with it using a web3 wallet or other compatible tool.
 
@@ -29,10 +29,10 @@ totalSupply -= amount;
 balances[sender] -= amount;
 }
 
-Security considerations
+#Security considerations
 
 This contract is not a security-critical application. It is intended for educational purposes only. If you are using this contract for real-world applications, you should take additional security measures to protect your tokens.
 
-License
+#License
 
 This contract is licensed under the MIT License. See the LICENSE file for more information.
